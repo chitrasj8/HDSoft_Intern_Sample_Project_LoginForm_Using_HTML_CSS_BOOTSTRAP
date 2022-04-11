@@ -1,0 +1,50 @@
+		body {  			 
+			background-image: url('loginimage.jpg');
+			background-size: cover;
+			}  
+		button {   
+			background-color:#0384fc;   
+			width: 97%;  
+			color: white;   
+			padding: 12px 20px;  
+			margin: 10px 0px 13px 6px;   
+			border: none;   
+			cursor: pointer; 
+			font-size: 15px;
+			font-weight: bold;
+			}   
+		form {   
+			margin-left: 20%;			
+			margin-top: 4%;			
+			border-radius:3%;   
+			width: 30%;			
+			padding: 20px 2px 65px 2px;
+			background-color: #332f2e;
+			}   
+		input[type=text], input[type=password], input[type=email] {   
+			margin: 10px 0px 0px 2px; 		
+			}  		
+		.circular{
+			width: 200px; 	
+			height: 200px; 
+			overflow: hidden; 
+			border-radius: 70%;
+			margin: auto;
+			border: 10px solid white;
+			}  	   
+		.input-icon-container{
+			display: flex;			
+			padding: 5px;
+			}
+		.input-icon-container input {	 	  		
+			font-size: 15px;
+			padding: 12px 0px 10px 76px;
+			flex : auto;  
+			}
+		.image_placeholder{
+			background: no-repeat;
+			width: 52px;
+			height: 43px;
+			position: fixed;
+			padding: 10px 0px 0px 2px;
+			}
